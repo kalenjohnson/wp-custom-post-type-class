@@ -216,7 +216,7 @@ $books->sortable(array(
 
 #### Dashicons
 
-With WordPress 3.8 comes [dashicons](http://melchoyce.github.io/dashicons/) an icon font you can use with your custom post types. To use simply pass the icon name through the `menu_icon()` method like so:
+With WordPress 3.8 comes [dashicons](https://developer.wordpress.org/resource/dashicons/) an icon font you can use with your custom post types. To use simply pass the icon name through the `menu_icon()` method like so:
 
 ```php
 $books->menu_icon("dashicons-book-alt");
